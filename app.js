@@ -1,15 +1,12 @@
 function addnumber(a,b){
-    alert( a+b)
+    alert('your result is: ' + (a + b));
 }
 function subnumber(a,b){
-    alert( a-b)
-}
+    alert('your result is: ' + (a - b));}
 function multipynumber(a,b){
-    alert( a*b)
-}
+    alert('your result is: ' + (a + b));}
 function dividenumber(a,b){
-    alert( a/b)
-}
+    alert('your result is: ' + (a + b));}
 
 let operation=prompt("select the number corresponding to operation you like to perform \n 1 ---> addition.\n 2 ---> subtraction \n 3 ---> multiplication \n 4 ---> divide");
 console.log(operation);
@@ -27,6 +24,6 @@ else if (operation==="3"){
 else{
     dividenumber(firstmumber,secondmumber)
 }
-let calculation=confirm("do you want to perform calculation again")
-calculation ? location.reload()
-:alert("let me know if you need any help")
+// let calculation=confirm("do you want to perform calculation again")
+// calculation ? location.reload()
+// :alert("let me know if you need any help")
