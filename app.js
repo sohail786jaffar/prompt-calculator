@@ -24,6 +24,4 @@ else if (operation==="3"){
 else{
     dividenumber(firstmumber,secondmumber)
 }
-// let calculation=confirm("do you want to perform calculation again")
-// calculation ? location.reload()
-// :alert("let me know if you need any help")
+location.reload()
